@@ -1,8 +1,8 @@
-@import "../../style/px2rem.less";
-@import "../../style/common.less";
-@import '../../assets/fonts/iconfont.css';
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+@import '../../common/fonts/iconfont.css';
 
-.headers{
+.headers {
     .px2rem(98);
     height: @px2rem;
     display: flex;
@@ -11,13 +11,19 @@
     background-color: @base-color;
     color: #ffffff;
 
-    .margin-ft{
+    .margin-ft {
         .px2rem(20);
         padding: 0 @px2rem;
     }
 
-    .title{
+    .title {
         .px2rem(50);
         font-size: @px2rem;
     }
+}
+
+.nav-slide {
+    .coverScreen(fixed);
+    .px2rem(98);
+    margin-top: @px2rem;
 }

@@ -7,10 +7,10 @@ import { HashRouter, Switch, Redirect, Route } from "react-router-dom";
 import AsyncComponent from "../util/asyncComponent";
 
 // 引入共同的样式问题
-import '../style/base.css'
+import '../common/less/base.css'
 
 // 组件页面
-const Home = AsyncComponent(() => import("../pages/home/home"));
+const Home = AsyncComponent(() => import("../pages/home"));
 
 const routerList = [
   {
