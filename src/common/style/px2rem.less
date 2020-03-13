@@ -1,0 +1,8 @@
+
+@designWidth:750;
+
+//返回函数调用方法：在调用属性前执行一次
+.px2rem(@length){
+  @px2rem:unit(@length*320/@designWidth/20 , rem);
+}
+
