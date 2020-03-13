@@ -1,0 +1,23 @@
+@import "../../style/px2rem.less";
+@import "../../style/common.less";
+@import '../../assets/fonts/iconfont.css';
+
+.headers{
+    .px2rem(98);
+    height: @px2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: @base-color;
+    color: #ffffff;
+
+    .margin-ft{
+        .px2rem(20);
+        padding: 0 @px2rem;
+    }
+
+    .title{
+        .px2rem(50);
+        font-size: @px2rem;
+    }
+}

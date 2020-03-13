@@ -1,0 +1,15 @@
+@import '../../assets/fonts/iconfont.css';
+.headers {
+  height: 2.09066667rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #39A6FD;
+  color: #ffffff;
+}
+.headers .margin-ft {
+  padding: 0 0.42666667rem;
+}
+.headers .title {
+  font-size: 1.06666667rem;
+}
