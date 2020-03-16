@@ -111,6 +111,65 @@ class Home extends Component {
             }
           ]
         }
+      ],
+      //   热卖单品
+      hotSaleList: [
+        {
+          title: "2016年春Gillivo嘉里奥新款零钱包正品专柜",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i3/446693207/TB283ZslFXXXXX4XXXXXXXXXXXX_!!446693207.jpg_200x200q90.jpg_.webp",
+          price: 12,
+          salesVolume: 1
+        },
+        {
+          title: "春中大女童学院风娃娃领纯棉中长款风衣外套",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i4/12524484/O1CN01EfZBZA1iziY14s3yh_!!0-saturn_solar.jpg_200x200q90.jpg_.webp",
+          price: 151.1,
+          salesVolume: 6
+        },
+        {
+          title: "白色破洞牛仔短裤女夏高腰2019新款韩版宽松大码显瘦毛边阔腿热裤",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i1/3201581578/TB1YYNXc1uSBuNjSsziXXbq8pXa_!!0-item_pic.jpg_200x200q90.jpg_.webp",
+          price: 79,
+          salesVolume: 24
+        },
+        {
+          title: "尼泊尔进口羊毛毡纯手工萌物系列小奶牛单肩包大人/儿童斜挎包女",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i5/TB1ZjgTJVXXXXb2XXXXYXGcGpXX_M2.SS2_200x200q90.jpg_.webp",
+          price: 65,
+          salesVolume: 0
+        },
+        {
+          title: "2020春夏吊带连衣裙明星同款名媛宴会星空亮片裙年会主持晚礼服",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i3/2550641536/TB22OaEe2jM8KJjSZFyXXXdzVXa_!!2550641536.jpg_200x200q90.jpg_.webp",
+          price: 299,
+          salesVolume: 100
+        },
+        {
+          title: "2019春秋款 横竖条拼圆领休闲宽松卫衣长袖加厚T恤女 卡门T30C106",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i1/62174580/TB2rC4KrbsTMeJjy1zbXXchlVXa_!!62174580.jpg_200x200q90.jpg_.webp",
+          price: 135,
+          salesVolume: 0
+        },
+        {
+          title: "SUNGDO GIN独立设计师春夏新品黑色几何腰金边西装短裤",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i1/45738681/TB2tNLyebRkpuFjSspmXXc.9XXa_!!45738681.jpg_200x200q90.jpg_.webp",
+          price: 342.3,
+          salesVolume: 0
+        },
+        {
+          title: "T119韩国女装代设计感简约棉质春秋长袖套头女卫衣毛圈新品2019",
+          detailImg:
+            "https://img.alicdn.com/bao/uploaded/i4/75318385/TB2m5FLcbSYBuNjSspiXXXNzpXa_!!75318385.jpg_200x200q90.jpg_.webp",
+          price: 158,
+          salesVolume: 1
+        }
       ]
     };
   }
@@ -134,19 +193,19 @@ class Home extends Component {
           <ul>
             <li>
               <img src={require("../common/images/nav.png")} alt="" />
-              <span>护肤品</span>
+              <span>衣服</span>
             </li>
             <li>
               <img src={require("../common/images/nav.png")} alt="" />
-              <span>化妆品</span>
+              <span>鞋子</span>
             </li>
             <li>
               <img src={require("../common/images/nav.png")} alt="" />
-              <span>保健品</span>
+              <span>家居</span>
             </li>
             <li>
               <img src={require("../common/images/nav.png")} alt="" />
-              <span>小用品</span>
+              <span>生活用品</span>
             </li>
           </ul>
         </div>
@@ -166,11 +225,11 @@ class Home extends Component {
                           <li key={items + indexs}>
                             <img src={items.img} alt="" />
                             <div className="rt">
-                              <span
-                                className={items.smallTitle ? "smallTitle" : ""}
-                              >
-                                {items.smallTitle}
-                              </span>
+                              {items.smallTitle && (
+                                <span className="smallTitle">
+                                  {items.smallTitle}
+                                </span>
+                              )}
                               <span className="introduce">
                                 {items.introduce}
                               </span>
@@ -185,8 +244,62 @@ class Home extends Component {
             </ul>
           </div>
           <div className="recommend">
-              <img src="https://img.alicdn.com/simba/img/TB1pIQFjbr1gK0jSZR0SuvP8XXa.jpg" alt=""/>
+            <img
+              src="https://img.alicdn.com/simba/img/TB1pIQFjbr1gK0jSZR0SuvP8XXa.jpg"
+              alt=""
+            />
           </div>
+          {/* 热卖单品 */}
+          <div className="hot-sale">
+            <div className="title">
+              <span>热卖单品</span>
+            </div>
+            <div className="sale-bodyblock">
+              <ul>
+                {this.state.hotSaleList.map((item, index) => {
+                  return (
+                    <li key={item + index}>
+                      <img src={item.detailImg} alt="" />
+                      <p>{item.title}</p>
+                      <div className="hot-bt">
+                        <span>
+                            <span className="mark">￥</span>
+                            <span className="price">{item.price}</span>
+                        </span>
+                        <span className="volume">
+                          {item.salesVolume !== 0 ? '销量：'+item.salesVolume : ""}
+                        </span>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer">
+            <ul>
+                <li>
+                    <img src={require('../common/images/home.jpg')} alt=""/>
+                    <span>首页</span>
+                </li>
+                <li>
+                    <img src={require('../common/images/category.jpg')} alt=""/>
+                    <span>分类</span>
+                </li>
+                <li>
+                    <img src={require('../common/images/info.jpg')} alt=""/>
+                    <span>消息</span>
+                </li>
+                <li>
+                    <img src={require('../common/images/cart.jpg')} alt=""/>
+                    <span>购物车</span>
+                </li>
+                <li>
+                    <img src={require('../common/images/my.jpg')} alt=""/>
+                    <span>我的</span>
+                </li>
+            </ul>
         </div>
       </div>
     );

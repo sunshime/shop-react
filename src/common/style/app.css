@@ -136,3 +136,109 @@ body {
 .home .bodyblock .recommend {
   height: 2.13333333rem;
 }
+.home .bodyblock .hot-sale {
+  margin-top: 0.64rem;
+  background-color: #ffffff;
+}
+.home .bodyblock .hot-sale .title {
+  height: 2.56rem;
+  line-height: 2.56rem;
+}
+.home .bodyblock .hot-sale .title {
+  font-size: 0.93866667rem;
+  font-weight: 700;
+}
+.home .bodyblock .hot-sale .title {
+  padding-left: 0.85333333rem;
+}
+.home .bodyblock .hot-sale .title span {
+  border-left: 0.21333333rem solid #ff190b;
+}
+.home .bodyblock .hot-sale .title span {
+  padding-left: 0.64rem;
+  color: #FF5A27;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li {
+  box-sizing: border-box;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.64rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li p {
+  color: #333333;
+  margin: 0 0.72533333rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li p {
+  margin-top: 0.42666667rem;
+  margin-bottom: 0.42666667rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 0.72533333rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt .mark,
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt .price {
+  color: #F40;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt .mark {
+  font-size: 0.256rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt .price {
+  font-size: 0.85333333rem;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul li .hot-bt .volume {
+  font-size: 0.256rem;
+  color: #999999;
+}
+.home .bodyblock .hot-sale .sale-bodyblock ul:after {
+  content: "";
+  height: 0;
+  width: 33.33%;
+}
+.home .bodyblock {
+  padding-bottom: 3.62666667rem;
+}
+.home .footer {
+  width: 100%;
+  padding: 0.42666667rem 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+.home .footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+.home .footer ul li {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home .footer ul li img {
+  width: 1.70666667rem;
+  height: 1.70666667rem;
+}
