@@ -3,6 +3,10 @@
 @import '../../common/fonts/iconfont.css';
 
 .headers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     .px2rem(98);
     height: @px2rem;
     display: flex;
@@ -10,6 +14,7 @@
     align-items: center;
     background-color: @base-color;
     color: #ffffff;
+    z-index: 100;
 
     .margin-ft {
         .px2rem(20);

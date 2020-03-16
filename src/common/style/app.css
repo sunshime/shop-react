@@ -1,3 +1,9 @@
+body {
+  background-color: #F5F7FA;
+  width: 100%;
+  height: 100%;
+  font-size: 0.29866667rem;
+}
 .home .swiper {
   height: 12.8rem;
   overflow: hidden;
@@ -8,4 +14,125 @@
 .home .swiper img {
   width: 100%;
   height: 100%;
+}
+.home .nav {
+  background-color: #ffffff;
+}
+.home .nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .nav ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.64rem 0;
+}
+.home .nav ul li img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  display: block;
+}
+.home .nav ul li span {
+  font-size: 0.46933333rem;
+  color: #333;
+}
+.home .nav ul li span {
+  padding-top: 0.21333333rem;
+}
+.home .bodyblock {
+  margin-top: 0.42666667rem;
+}
+.home .bodyblock .block-active ul .items {
+  width: 100%;
+  padding: 0 0.64rem 0.64rem 0.64rem;
+  background-color: #ffffff;
+  margin-top: 0.64rem;
+}
+.home .bodyblock .block-active ul .items .title {
+  height: 1.92rem;
+  display: flex;
+  align-items: center;
+}
+.home .bodyblock .block-active ul .items .title img {
+  width: 2.77333333rem;
+}
+.home .bodyblock .block-active ul .items .title img {
+  height: 1.06666667rem;
+}
+.home .bodyblock .block-active ul .items .title span {
+  font-size: 0.34133333rem;
+  color: #999999;
+}
+.home .bodyblock .block-active ul .items .title span {
+  padding-left: 0.42666667rem;
+}
+.home .bodyblock .block-active ul .items .content {
+  padding-top: 0.21333333rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home .bodyblock .block-active ul .items .content li {
+  width: 49%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  padding: 0.42666667rem 0;
+}
+.home .bodyblock .block-active ul .items .content li:nth-child(2n) {
+  padding-left: 0.42666667rem;
+}
+.home .bodyblock .block-active ul .items .content li img {
+  width: 2.56rem;
+  height: 2.56rem;
+}
+.home .bodyblock .block-active ul .items .content li img {
+  margin-top: 0.21333333rem;
+}
+.home .bodyblock .block-active ul .items .content li .rt {
+  width: 76%;
+  padding-left: 0.42666667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .bodyblock .block-active ul .items .content li .rt .smallTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  color: #333;
+  font-size: 0.46933333rem;
+}
+.home .bodyblock .block-active ul .items .content li .rt .smallTitle {
+  padding-bottom: 0.21333333rem;
+}
+.home .bodyblock .block-active ul .items .content li .rt .introduce {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #666;
+}
+.home .bodyblock .block-active ul .items {
+  padding-top: 0.32rem;
+}
+.home .bodyblock .recommend {
+  margin-top: 0.64rem;
+  background-color: #ffffff;
+  width: 100%;
+}
+.home .bodyblock .recommend img {
+  width: 100%;
+  height: 100%;
+}
+.home .bodyblock .recommend {
+  height: 2.13333333rem;
 }

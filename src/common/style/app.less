@@ -1,17 +1,180 @@
 @import "../less/px2rem.less";
 @import "./common.less";
-.home{
-    .swiper{
+
+.home {
+    .swiper {
         .px2rem(600);
         height: @px2rem;
         overflow: hidden;
     }
-    .swiper{
+
+    .swiper {
         .px2rem(1100);
         width: @px2rem;
-        img{
+
+        img {
             width: 100%;
             height: 100%;
+        }
+    }
+
+    // 导航栏部分
+    .nav {
+        background-color: #ffffff;
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .px2rem(30);
+                padding: @px2rem 0;
+
+                img {
+                    .px2rem(100);
+                    width: @px2rem;
+                    height: @px2rem;
+                    display: block;
+                }
+
+                span {
+                    .px2rem(22);
+                    font-size: @px2rem;
+                    color: #333;
+                }
+
+                span {
+                    .px2rem(10);
+                    padding-top: @px2rem;
+                }
+            }
+        }
+    }
+
+    // 内容部分
+    .bodyblock {
+        .px2rem(20);
+        margin-top: @px2rem;
+
+        .block-active {
+            ul {
+                .items {
+                    width: 100%;
+                    .px2rem(30);
+                    padding:0 @px2rem @px2rem @px2rem;
+                    background-color: #ffffff;
+                    margin-top: @px2rem;
+
+                    .title {
+                        .px2rem(90);
+                        height: @px2rem;
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            .px2rem(130);
+                            width: @px2rem;
+                        }
+
+                        img {
+                            .px2rem(50);
+                            height: @px2rem;
+                        }
+
+                        span {
+                            .px2rem(16);
+                            font-size: @px2rem;
+                            color: #999999;
+                        }
+
+                        span {
+                            .px2rem(20);
+                            padding-left: @px2rem;
+                        }
+                    }
+
+                    .content{
+                        .px2rem(10);
+                        padding-top: @px2rem;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        li {
+                            width: 49%;
+                            display: flex;
+                            justify-content: start;
+                            flex-wrap: nowrap;
+                            .px2rem(20);
+                            padding: @px2rem 0;
+
+                            &:nth-child(2n){
+                                .px2rem(20);
+                                padding-left: @px2rem;
+                            }
+                            img{
+                                .px2rem(120);
+                                width: @px2rem;
+                                height: @px2rem;
+                            }
+                            img{
+                                .px2rem(10);
+                                margin-top: @px2rem;
+                            }
+                            .rt {
+                                width: 76%;
+                                .px2rem(20);
+                                padding-left: @px2rem;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                .smallTitle{
+                                    .ellipsis();
+                                    color: #333;
+                                    .px2rem(22);
+                                    font-size: @px2rem;
+                                }
+
+                                .smallTitle{
+                                    .px2rem(10);
+                                    padding-bottom: @px2rem;
+                                }
+
+                                .introduce{
+                                    .ellipsis2();
+                                    color: #666;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .items{
+                    .px2rem(15);
+                    padding-top: @px2rem;
+                }
+            }
+        }
+
+        .recommend{
+            .px2rem(30);
+            margin-top: @px2rem;
+            background-color: #ffffff;
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .recommend{
+            .px2rem(100);
+            height: @px2rem;
         }
     }
 }
