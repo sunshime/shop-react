@@ -9,6 +9,6 @@
     5、react-dom、react-hot-loader、react-redux、react-router-dom、redux
 
 ## 首页效果图：
-![avatar]('./src/asset/home.png')
+![home.png](https://i.loli.net/2020/03/16/HvDFjhwqQEyPLlY.png)
 
 ## 其他页面还在开发中~
