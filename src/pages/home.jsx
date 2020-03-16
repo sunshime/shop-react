@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import ReactSwipe from "react-swipe";
 import AHeader from "../components/header";
+import Footer from '../components/footer'
 import "../common/style/app.css";
 
 class Home extends Component {
@@ -171,13 +171,6 @@ class Home extends Component {
           price: 158,
           salesVolume: 1
         }
-      ],
-      //   底部导航栏
-      footerNav: [
-        { path: "/", exact: true, icon: "home.jpg", name: "首页" },
-        { path: "/record", exact: false, icon: "category.jpg", name: "分类" },
-        { path: "/record", exact: false, icon: "info.jpg", name: "消息" },
-        { path: "/record", exact: false, icon: "my.jpg", name: "我的" }
       ]
     };
   }
@@ -287,21 +280,8 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="footer">
-          <div className="foot-ul">
-            {this.state.footerNav.map((item, index) => {
-              return (
-                  <NavLink to={item.path} exact={item.exact}  key={item + index} className="foot-item">
-                    <img
-                      src={require("../common/images/" + item.icon)}
-                      alt=""
-                    />
-                    <span>{item.name}</span>
-                  </NavLink>
-              );
-            })}
-          </div>
-        </div>
+        <Footer/>
+        
       </div>
     );
   }

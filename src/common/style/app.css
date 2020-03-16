@@ -219,29 +219,3 @@ body {
 .home .bodyblock {
   padding-bottom: 3.62666667rem;
 }
-.home .footer {
-  width: 100%;
-  padding: 0.42666667rem 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background-color: #fff;
-}
-.home .footer .foot-ul {
-  display: flex;
-  justify-content: space-between;
-}
-.home .footer .foot-ul .foot-item {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.home .footer .foot-ul .foot-item img {
-  width: 1.70666667rem;
-  height: 1.70666667rem;
-}
-.home .footer .foot-ul .foot-item span {
-  color: #333;
-}

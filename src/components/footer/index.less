@@ -1,0 +1,30 @@
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+.footer {
+    width: 100%;
+    .px2rem(20);
+    padding: @px2rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+   .foot-ul {
+    display: flex;
+    justify-content: space-between;
+    .foot-item {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        img {
+            .px2rem(80);
+            width: @px2rem;
+            height: @px2rem;
+        }
+        span{
+            color: #333;
+        }
+    }
+   }
+}
