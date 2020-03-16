@@ -7,9 +7,9 @@ class Footer extends Component {
     //   底部导航栏
     footerNav: [
       { path: "/", exact: true, icon: "home.jpg", name: "首页" },
-      { path: "/record", exact: false, icon: "category.jpg", name: "分类" },
-      { path: "/record", exact: false, icon: "info.jpg", name: "消息" },
-      { path: "/record", exact: false, icon: "my.jpg", name: "我的" }
+      { path: "/category", exact: false, icon: "category.jpg", name: "分类" },
+      { path: "/info", exact: false, icon: "info.jpg", name: "消息" },
+      { path: "/my", exact: false, icon: "my.jpg", name: "我的" }
     ]
   };
   render() {

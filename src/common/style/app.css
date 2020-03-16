@@ -4,14 +4,17 @@ body {
   height: 100%;
   font-size: 0.29866667rem;
 }
-.home .swiper {
-  height: 12.8rem;
+.home .swipers {
+  padding-top: 2.09066667rem;
+}
+.home .swipers .swiper {
+  height: 10.66666667rem;
   overflow: hidden;
 }
-.home .swiper {
+.home .swipers .swiper {
   width: 23.46666667rem;
 }
-.home .swiper img {
+.home .swipers .swiper img {
   width: 100%;
   height: 100%;
 }

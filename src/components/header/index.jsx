@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import About from '../../pages/about'
 import "./index.css";
 
 class Home extends Component {
@@ -41,7 +42,8 @@ class Home extends Component {
             onClick={this.toggleNav}
           ></span>
           <span className="title">{this.props.title}</span>
-          <span className="icon-jilu margin-ft"></span>
+          {/* <span className="icon-jilu margin-ft"></span> */}
+          <span className="margin-ft"></span>
         </div>
 
         {/* component={this.FirstChild} 可有可无*/}
@@ -53,7 +55,7 @@ class Home extends Component {
         >
           {this.state.navState && (
             <div className="nav-slide" onClick={this.toggleNav}>
-              项目介绍
+              <About/>
             </div>
           )}
         </ReactCSSTransitionGroup>

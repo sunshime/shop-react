@@ -11,9 +11,10 @@ class Home extends Component {
       index: 0,
       //   轮播图
       swipeList: [
-        "https://i.loli.net/2020/03/13/ovQcBwXiaWIh5pO.jpg",
-        "https://i.loli.net/2020/03/13/xO58VqQas2eGLT3.jpg",
-        "https://i.loli.net/2020/03/13/gKC58MVdhx6kbTQ.jpg"
+        "/swiper1.jpg",
+        "/swiper2.jpg",
+        "/swiper3.jpg",
+        "/swiper4.jpg"
       ],
       //   活动列表
       activeList: [
@@ -181,11 +182,12 @@ class Home extends Component {
         <ReactSwipe
           swipeOptions={{ continuous: true, auto: 3000 }}
           key={this.state.swipeList.length}
+          className="swipers"
         >
           {this.state.swipeList.map((item, index) => {
             return (
               <div key={index} className="swiper">
-                <img src={item} alt="" />
+                <img src={require('../common/images'+item)} alt="" />
               </div>
             );
           })}
@@ -281,7 +283,6 @@ class Home extends Component {
           </div>
         </div>
         <Footer/>
-        
       </div>
     );
   }

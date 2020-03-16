@@ -11,11 +11,17 @@ import "../common/less/base.css";
 
 // 组件页面
 const Home = AsyncComponent(() => import("../pages/home"));
-const Record = AsyncComponent(() => import("../pages/record"));
+const About = AsyncComponent(() => import("../pages/about"));
+const Category = AsyncComponent(() => import("../pages/category"));
+const Info = AsyncComponent(() => import("../pages/info"));
+const My = AsyncComponent(() => import("../pages/my"));
 
 const routerList = [
   { path: "/", exact: true, component: Home },
-  { path: "/record", exact: false, component: Record }
+  { path: "/about", exact: false, component: About },
+  { path: "/category", exact: false, component: Category },
+  { path: "/info", exact: false, component: Info },
+  { path: "/my", exact: false, component: My }
 ];
 
 class RouteConfig extends Component {
