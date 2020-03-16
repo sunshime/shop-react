@@ -9,6 +9,7 @@ class Footer extends Component {
       { path: "/", exact: true, icon: "home.jpg", name: "首页" },
       { path: "/category", exact: false, icon: "category.jpg", name: "分类" },
       { path: "/info", exact: false, icon: "info.jpg", name: "消息" },
+      { path: "/cart", exact: false, icon: "cart.jpg", name: "购物车" },
       { path: "/my", exact: false, icon: "my.jpg", name: "我的" }
     ]
   };
