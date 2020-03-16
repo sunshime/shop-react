@@ -227,18 +227,21 @@ body {
   bottom: 0;
   background-color: #fff;
 }
-.home .footer ul {
+.home .footer .foot-ul {
   display: flex;
   justify-content: space-between;
 }
-.home .footer ul li {
+.home .footer .foot-ul .foot-item {
   width: 25%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.home .footer ul li img {
+.home .footer .foot-ul .foot-item img {
   width: 1.70666667rem;
   height: 1.70666667rem;
+}
+.home .footer .foot-ul .foot-item span {
+  color: #333;
 }

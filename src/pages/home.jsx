@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import ReactSwipe from "react-swipe";
 import AHeader from "../components/header";
 import "../common/style/app.css";
@@ -170,6 +171,13 @@ class Home extends Component {
           price: 158,
           salesVolume: 1
         }
+      ],
+      //   底部导航栏
+      footerNav: [
+        { path: "/", exact: true, icon: "home.jpg", name: "首页" },
+        { path: "/record", exact: false, icon: "category.jpg", name: "分类" },
+        { path: "/record", exact: false, icon: "info.jpg", name: "消息" },
+        { path: "/record", exact: false, icon: "my.jpg", name: "我的" }
       ]
     };
   }
@@ -263,11 +271,13 @@ class Home extends Component {
                       <p>{item.title}</p>
                       <div className="hot-bt">
                         <span>
-                            <span className="mark">￥</span>
-                            <span className="price">{item.price}</span>
+                          <span className="mark">￥</span>
+                          <span className="price">{item.price}</span>
                         </span>
                         <span className="volume">
-                          {item.salesVolume !== 0 ? '销量：'+item.salesVolume : ""}
+                          {item.salesVolume !== 0
+                            ? "销量：" + item.salesVolume
+                            : ""}
                         </span>
                       </div>
                     </li>
@@ -278,28 +288,19 @@ class Home extends Component {
           </div>
         </div>
         <div className="footer">
-            <ul>
-                <li>
-                    <img src={require('../common/images/home.jpg')} alt=""/>
-                    <span>首页</span>
-                </li>
-                <li>
-                    <img src={require('../common/images/category.jpg')} alt=""/>
-                    <span>分类</span>
-                </li>
-                <li>
-                    <img src={require('../common/images/info.jpg')} alt=""/>
-                    <span>消息</span>
-                </li>
-                <li>
-                    <img src={require('../common/images/cart.jpg')} alt=""/>
-                    <span>购物车</span>
-                </li>
-                <li>
-                    <img src={require('../common/images/my.jpg')} alt=""/>
-                    <span>我的</span>
-                </li>
-            </ul>
+          <div className="foot-ul">
+            {this.state.footerNav.map((item, index) => {
+              return (
+                  <NavLink to={item.path} exact={item.exact}  key={item + index} className="foot-item">
+                    <img
+                      src={require("../common/images/" + item.icon)}
+                      alt=""
+                    />
+                    <span>{item.name}</span>
+                  </NavLink>
+              );
+            })}
+          </div>
         </div>
       </div>
     );
