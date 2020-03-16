@@ -276,3 +276,55 @@ body {
 .home .bodyblock {
   padding-bottom: 3.62666667rem;
 }
+.my .bodyblock {
+  padding-top: 2.09066667rem;
+}
+.my .bodyblock .top {
+  height: 8.53333333rem;
+  width: 100%;
+}
+.my .bodyblock .top {
+  background: url("../images/bg.jpg") no-repeat -10.66666667rem 0px;
+}
+.my .bodyblock .top .actor {
+  padding: 2.13333333rem;
+}
+.my .bodyblock .top .actor {
+  padding-left: 3.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.my .bodyblock .top .actor img {
+  width: 4.26666667rem;
+  height: 4.26666667rem;
+  border-radius: 50%;
+}
+.my .bodyblock .top .actor .text {
+  padding-left: 0.98133333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.my .bodyblock .top .actor .text .user-name {
+  font-size: 0.98133333rem;
+}
+.my .bodyblock .top .actor .text .user-name {
+  padding-bottom: 0.42666667rem;
+}
+.my .bodyblock .top .actor .text .sign {
+  color: #333333;
+}
