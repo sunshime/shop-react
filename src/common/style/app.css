@@ -500,3 +500,58 @@ body {
   height: 200px;
   overflow: hidden;
 }
+.category {
+  padding-top: 2.09066667rem;
+}
+.category .nav {
+  width: 100%;
+  position: fixed;
+  top: 2.09066667rem;
+  left: 0;
+}
+.category .nav .tab-nav {
+  width: 100%;
+  overflow: scroll;
+  z-index: 500;
+}
+.category .nav .tab-nav .tab-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 2.304rem;
+  width: 335%;
+  border-bottom: 1px solid #ece9e9;
+  background-color: #fff;
+}
+.category .nav .tab-nav .tab-ul .tab-li {
+  padding: 0 0.64rem;
+  text-align: center;
+}
+.category .nav .tab-nav .tab-ul .tab-li {
+  font-size: 0.85333333rem;
+  color: #333;
+}
+.category .nav .tab-nav .tab-ul .tab-li {
+  height: 2.304rem;
+  line-height: 2.304rem;
+}
+.category .nav .tab-nav .tab-ul .active {
+  color: #F85959;
+}
+.category .nav .tab-nav::-webkit-scrollbar {
+  width: 0 !important;
+}
+.category .nav .tab-nav {
+  -ms-overflow-style: none;
+}
+.category .nav .tab-nav {
+  overflow: -moz-scrollbars-none;
+}

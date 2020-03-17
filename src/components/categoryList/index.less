@@ -1,0 +1,41 @@
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+@import '../../common/fonts/iconfont.css';
+
+.categorylist {
+    .px2rem(108);
+    margin-top: @px2rem;
+
+    .module {
+        .title {
+            .px2rem(108);
+            height: @px2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .line {
+                .px2rem(200);
+                background: linear-gradient(270deg, rgba(194, 194, 194, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                width: @px2rem;
+                height: 1px;
+                display: block;
+            }
+
+            .rt {
+                background: linear-gradient(-270deg, rgba(194, 194, 194, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            }
+
+            .title-name {
+                .px2rem(46);
+                font-size: @px2rem;
+                color: #333333;
+            }
+
+            .title-name {
+                .px2rem(20);
+                padding: 0 @px2rem;
+            }
+        }
+    }
+}

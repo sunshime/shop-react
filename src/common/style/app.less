@@ -555,3 +555,69 @@
         }
     }
 }
+
+.category {
+    .px2rem(98);
+    padding-top: @px2rem;
+
+    .nav {
+        width: 100%;
+        position: fixed;
+        .px2rem(98);
+        top: @px2rem;
+        left: 0;
+
+        .tab-nav {
+            width: 100%;
+            overflow: scroll;
+            z-index: 500;
+
+            .tab-ul {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                justify-content: start;
+                .px2rem(108);
+                height: @px2rem;
+                width: 335%;
+                border-bottom: 1px solid #ece9e9;
+                background-color: #fff;
+
+                .tab-li {
+                    .px2rem(30);
+                    padding:0 @px2rem;
+                    text-align: center;
+                }
+
+                .tab-li {
+                    .px2rem(40);
+                    font-size: @px2rem;
+                    color: #333;
+                }
+
+                .tab-li {
+                    .px2rem(108);
+                    height: @px2rem;
+                    line-height: @px2rem
+                }
+
+                .active{
+                   color: #F85959;
+                }
+            }
+        }
+
+        .tab-nav::-webkit-scrollbar {
+            width: 0 !important
+        }
+
+        .tab-nav {
+            -ms-overflow-style: none;
+        }
+
+        .tab-nav {
+            overflow: -moz-scrollbars-none;
+        }
+
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../common/fonts/iconfont.css';
+body {
+  background-color: #F5F7FA;
+  width: 100%;
+  height: 100%;
+  font-size: 0.29866667rem;
+}
+.categorylist {
+  margin-top: 2.304rem;
+}
+.categorylist .module .title {
+  height: 2.304rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categorylist .module .title .line {
+  background: linear-gradient(270deg, #c2c2c2 0%, #ffffff 100%);
+  width: 4.26666667rem;
+  height: 1px;
+  display: block;
+}
+.categorylist .module .title .rt {
+  background: linear-gradient(-270deg, #c2c2c2 0%, #ffffff 100%);
+}
+.categorylist .module .title .title-name {
+  font-size: 0.98133333rem;
+  color: #333333;
+}
+.categorylist .module .title .title-name {
+  padding: 0 0.42666667rem;
+}
