@@ -8,7 +8,10 @@
     4、react-swipe  轮播图
     5、react-dom、react-hot-loader、react-redux、react-router-dom、redux
 
-## 首页效果图：
+## 首页页面 效果图：
 ![home.png](https://i.loli.net/2020/03/16/HvDFjhwqQEyPLlY.png)
+
+## 我的页面 效果图：
+![home.png](https://s1.ax1x.com/2020/03/17/8NZwm4.png)
 
 ## 其他页面还在开发中~
