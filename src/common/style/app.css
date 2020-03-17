@@ -276,6 +276,9 @@ body {
 .home .bodyblock {
   padding-bottom: 3.62666667rem;
 }
+.my {
+  background-color: #EBEFF8;
+}
 .my .bodyblock {
   padding-top: 2.09066667rem;
 }
@@ -332,7 +335,7 @@ body {
   background-color: #fff;
 }
 .my .bodyblock .order .order-top {
-  height: 2.09066667rem;
+  height: 2.304rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,10 +391,78 @@ body {
           justify-content: center;
 }
 .my .bodyblock .order .order-bt .order-ul .order-li img {
-  width: 1.28rem;
-  height: 1.28rem;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
 }
 .my .bodyblock .order .order-bt .order-ul .order-li span {
   color: #666;
   padding-top: 0.21333333rem;
+}
+.my .bodyblock .about {
+  margin-top: 0.53333333rem;
+}
+.my .bodyblock .about .about-ul {
+  background-color: #fff;
+}
+.my .bodyblock .about .about-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2.73066667rem;
+}
+.my .bodyblock .about .about-li .left {
+  width: 3.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.my .bodyblock .about .about-li .left img {
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.my .bodyblock .about .about-li .right {
+  height: 2.09066667rem;
+}
+.my .bodyblock .about .about-li .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.98133333rem;
+  color: #999;
+  border-bottom: 1px solid #e8e8e8;
+}
+.my .bodyblock .about .about-li .right .lt {
+  font-size: 0.55466667rem;
+  color: #333;
+}
+.my .bodyblock .about .about-li .right .rt {
+  padding: 0 0.64rem;
+}
+.my .bodyblock .about .about-li .noborder {
+  border-bottom: 0 none;
+}
+.my .bodyblock .about .pay-resource {
+  margin-top: 0.53333333rem;
+  background-color: #fff;
 }

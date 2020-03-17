@@ -22,6 +22,24 @@ class Category extends Component {
         imgSrc: "refund.jpg",
         name: "退款/售后"
       }
+    ],
+    aboutList: [
+      {
+        imgSrc: "wallet.jpg",
+        name: "我的钱包"
+      },
+      {
+        imgSrc: "collection.jpg",
+        name: "我的收藏"
+      },
+      {
+        imgSrc: "recommendation.jpg",
+        name: "我的推荐"
+      },
+      {
+        imgSrc: "points.jpg",
+        name: "我的积分"
+      }
     ]
   };
   render() {
@@ -54,7 +72,7 @@ class Category extends Component {
               <ul className="order-ul">
                 {this.state.orderList.map((item, index) => {
                   return (
-                    <li key={item+index} className="order-li">
+                    <li key={item + index} className="order-li">
                       <img
                         src={require("../common/images/" + item.imgSrc)}
                         alt=""
@@ -64,6 +82,60 @@ class Category extends Component {
                   );
                 })}
               </ul>
+            </div>
+          </div>
+          <div className="about">
+            <ul className="about-ul">
+              {this.state.aboutList.map((item, index) => {
+                return (
+                  <li className="about-li" key={item + index}>
+                    <div className="left">
+                      <img
+                        src={require("../common/images/" + item.imgSrc)}
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      className={
+                        index < this.state.aboutList.length - 1
+                          ? "right"
+                          : "right noborder"
+                      }
+                    >
+                      <span className="lt">{item.name}</span>
+                      <span className="rt">&gt;</span>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+            <div className="pay-resource">
+              <div className="about-li">
+                <div className="left">
+                  <img
+                    src={require("../common/images/PayResources.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className="right noborder">
+                  <span className="lt">付款资源</span>
+                  <span className="rt">&gt;</span>
+                </div>
+              </div>
+            </div>
+            <div className="pay-resource">
+              <div className="about-li">
+                <div className="left">
+                  <img
+                    src={require("../common/images/payChannel.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className="right noborder">
+                  <span className="lt">支付渠道</span>
+                  <span className="rt">&gt;</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

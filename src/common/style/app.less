@@ -306,6 +306,8 @@
 }
 
 .my {
+    background-color: #EBEFF8;
+
     .bodyblock {
         .px2rem(98);
         padding-top: @px2rem;
@@ -375,7 +377,7 @@
             background-color: #fff;
 
             .order-top {
-                .px2rem(98);
+                .px2rem(108);
                 height: @px2rem;
                 display: flex;
                 justify-content: space-between;
@@ -422,7 +424,7 @@
                         justify-content: center;
 
                         img {
-                            .px2rem(60);
+                            .px2rem(50);
                             width: @px2rem;
                             height: @px2rem;
                         }
@@ -434,6 +436,75 @@
                         }
                     }
                 }
+            }
+        }
+
+        .about {
+            .px2rem(25);
+            margin-top: @px2rem;
+
+            .about-ul {
+                background-color: #fff;
+
+            }
+
+            .about-li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .px2rem(128);
+                height: @px2rem;
+
+                .left {
+                    .px2rem(150);
+                    width: @px2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        .px2rem(60);
+                        width: @px2rem;
+                        height: @px2rem
+                    }
+                }
+
+                .right {
+                    .px2rem(98);
+                    height: @px2rem;
+                }
+
+                .right {
+                    flex: 1;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .px2rem(46);
+                    font-size: @px2rem;
+                    color: #999;
+                    border-bottom: 1px solid #e8e8e8;
+
+                    .lt {
+                        .px2rem(26);
+                        font-size: @px2rem;
+                        color: #333;
+                    }
+
+                    .rt {
+                        .px2rem(30);
+                        padding: 0 @px2rem;
+                    }
+                }
+
+                .noborder {
+                    border-bottom: 0 none;
+                }
+            }
+
+            .pay-resource {
+                .px2rem(25);
+                margin-top: @px2rem;
+                background-color: #fff;
             }
         }
     }
