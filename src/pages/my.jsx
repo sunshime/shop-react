@@ -40,8 +40,24 @@ class Category extends Component {
         imgSrc: "points.jpg",
         name: "我的积分"
       }
-    ]
+    ],
+    avator: ""
   };
+
+  // 动态添加图片
+  onLoadImg() {
+    let _this = this;
+    let file1 = document.getElementById("inputId").files[0];
+    if (file1) {
+      var reader = new FileReader();
+      reader.readAsDataURL(file1);
+
+      reader.onload = function(e) {
+        _this.setState({ avator: e.target.result });
+      };
+    }
+  }
+
   render() {
     return (
       <div className="my">
@@ -49,10 +65,17 @@ class Category extends Component {
         <div className="bodyblock">
           <div className="top">
             <div className="actor">
-              <img
-                src="http://img0.imgtn.bdimg.com/it/u=1972224372,2850391150&fm=26&gp=0.jpg"
-                alt=""
-              />
+              <div className="set-avator">
+                <input
+                  type="file"
+                  id="inputId"
+                  onChange={this.onLoadImg.bind(this)}
+                />
+                {this.state.avator && <img src={this.state.avator} alt="" />}
+                {!this.state.avator && (
+                  <img src={require("../common/images/avator.jpg")} alt="" />
+                )}
+              </div>
               <div className="text">
                 <span className="user-name">molly</span>
                 <span className="sign">
