@@ -328,3 +328,70 @@ body {
 .my .bodyblock .top .actor .text .sign {
   color: #333333;
 }
+.my .bodyblock .order {
+  background-color: #fff;
+}
+.my .bodyblock .order .order-top {
+  height: 2.09066667rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.my .bodyblock .order .order-top {
+  padding: 0 0.64rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.my .bodyblock .order .order-top .left {
+  color: #333333;
+  font-size: 0.768rem;
+  font-weight: 700;
+}
+.my .bodyblock .order .order-top .right {
+  color: #999;
+  font-size: 0.42666667rem;
+}
+.my .bodyblock .order .order-top .right span {
+  font-size: 0.98133333rem;
+}
+.my .bodyblock .order .order-bt .order-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.584rem;
+}
+.my .bodyblock .order .order-bt .order-ul .order-li {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.my .bodyblock .order .order-bt .order-ul .order-li img {
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.my .bodyblock .order .order-bt .order-ul .order-li span {
+  color: #666;
+  padding-top: 0.21333333rem;
+}

@@ -350,12 +350,13 @@
                         .px2rem(46);
                         font-size: @px2rem;
                     }
+
                     .user-name {
                         .px2rem(20);
                         padding-bottom: @px2rem;
                     }
 
-                    .sign{
+                    .sign {
                         color: #333333;
                     }
 
@@ -368,6 +369,72 @@
 
             }
 
+        }
+
+        .order {
+            background-color: #fff;
+
+            .order-top {
+                .px2rem(98);
+                height: @px2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .order-top {
+                .px2rem(30);
+                padding: 0 @px2rem;
+                border-bottom: 1px solid #e8e8e8;
+
+                .left {
+                    color: #333333;
+                    .px2rem(36);
+                    font-size: @px2rem;
+                    font-weight: 700;
+                }
+
+                .right {
+                    color: #999;
+                    .px2rem(20);
+                    font-size: @px2rem;
+
+                    span {
+                        .px2rem(46);
+                        font-size: @px2rem;
+                    }
+                }
+            }
+
+            .order-bt {
+                .order-ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .px2rem(168);
+                    height: @px2rem;
+
+                    .order-li {
+                        width: 25%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            .px2rem(60);
+                            width: @px2rem;
+                            height: @px2rem;
+                        }
+
+                        span {
+                            color: #666;
+                            .px2rem(10);
+                            padding-top: @px2rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }
