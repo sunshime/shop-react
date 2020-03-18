@@ -1,0 +1,54 @@
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+@import '../../common/fonts/iconfont.css';
+
+.news {
+    .px2rem(160);
+    margin-bottom: @px2rem;
+}
+
+.news {
+    .px2rem(98);
+    position: fixed;
+    top: @px2rem;
+    width: 100%;
+    height: 100%;
+
+    .search {
+        width: 100%;
+        .px2rem(98);
+        height: @px2rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid #eeeeee;
+
+        .icon {
+            height: 100%;
+            .px2rem(120);
+            width: @px2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                .px2rem(50);
+                width: @px2rem;
+                height: @px2rem;
+                display: block;
+            }
+        }
+
+
+        input {
+            border: 0 none;
+            width: 90%;
+            height: 100%;
+            .px2rem(42);
+            font-size: @px2rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: #757575;
+        }
+    }
+}

@@ -487,18 +487,10 @@ body {
   margin-top: 0.53333333rem;
   background-color: #fff;
 }
-.info .img {
-  padding-top: 200px;
-}
-.info .avator {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-.info .avator img {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
+.info {
+  background: url('../../common/images/chat.jpg') 100% 100%;
+  width: 100%;
+  height: 100vh;
 }
 .category {
   padding-top: 2.09066667rem;
