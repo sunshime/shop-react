@@ -3,10 +3,20 @@
 @import '../../common/fonts/iconfont.css';
 
 .categorylist {
+    .px2rem(160);
+    margin-bottom: @px2rem;
+}
+
+.categorylist {
     .px2rem(108);
     margin-top: @px2rem;
+    overflow: scroll;
 
     .module {
+        .px2rem(40);
+        margin-bottom: @px2rem;
+        background-color: #fff;
+
         .title {
             .px2rem(108);
             height: @px2rem;
@@ -36,6 +46,77 @@
                 .px2rem(20);
                 padding: 0 @px2rem;
             }
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .item {
+                .px2rem(10);
+                padding-top: @px2rem;
+            }
+            .item {
+                width: 33.3%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+
+                .px2rem(30);
+                padding-bottom: @px2rem;
+
+                .imgs {
+                    .px2rem(335);
+                    width: @px2rem;
+                    height: @px2rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+                }
+
+                .text {
+                    .px2rem(15);
+                    padding: @px2rem;
+
+                    p {
+                        .ellipsis2();
+                        .px2rem(36);
+                        font-size: @px2rem;
+                        color: #333333;
+                    }
+
+                    .all-price {
+                        .px2rem(15);
+                        padding-top: @px2rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        color: #FF4400;
+                        font-weight: 700;
+
+                        .price {
+                            .px2rem(20);
+                            padding-left: @px2rem;
+                            color: #999999;
+                            text-decoration:line-through; 
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        .content::after {
+            // 使用伪类元素占据单位，不影响页面
+            content: "";
+            height: 0;
+            width: 33.3%;
         }
     }
 }

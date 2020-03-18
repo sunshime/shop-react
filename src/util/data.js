@@ -73,7 +73,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -162,10 +162,10 @@ const cateList = [
             }
         ]
     },
-    // 眼镜
+    // 男装
     {
         id: 2,
-        title: "眼镜",
+        title: "男装",
         list: [{
             cid: 1,
             title: "好货优选",
@@ -328,7 +328,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -537,7 +537,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -792,7 +792,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -1093,7 +1093,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -1394,7 +1394,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -1603,7 +1603,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }
@@ -1858,7 +1858,7 @@ const cateList = [
                     },
                     {
                         img: "https://gw.alicdn.com/bao/uploaded/i4/725738041/O1CN01w1UXTj29GpKp79efw_!!725738041.jpg_180x180xz.jpg_.webp",
-                        subTitle: "【现货】YUKIXIAOSHU刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
+                        subTitle: "【现货】YUKIXIAO刺绣宽松加厚休闲时尚洋气加绒长袖T恤女秋冬",
                         price: 35.94,
                         oldPrice: 59.9
                     }

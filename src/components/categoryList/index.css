@@ -6,7 +6,15 @@ body {
   font-size: 0.29866667rem;
 }
 .categorylist {
+  margin-bottom: 3.41333333rem;
+}
+.categorylist {
   margin-top: 2.304rem;
+  overflow: scroll;
+}
+.categorylist .module {
+  margin-bottom: 0.85333333rem;
+  background-color: #fff;
 }
 .categorylist .module .title {
   height: 2.304rem;
@@ -29,4 +37,62 @@ body {
 }
 .categorylist .module .title .title-name {
   padding: 0 0.42666667rem;
+}
+.categorylist .module .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categorylist .module .content .item {
+  padding-top: 0.21333333rem;
+}
+.categorylist .module .content .item {
+  width: 33.3%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.64rem;
+}
+.categorylist .module .content .item .imgs {
+  width: 7.14666667rem;
+  height: 7.14666667rem;
+}
+.categorylist .module .content .item .imgs img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.categorylist .module .content .item .text {
+  padding: 0.32rem;
+}
+.categorylist .module .content .item .text p {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.768rem;
+  color: #333333;
+}
+.categorylist .module .content .item .text .all-price {
+  padding-top: 0.32rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #FF4400;
+  font-weight: 700;
+}
+.categorylist .module .content .item .text .all-price .price {
+  padding-left: 0.42666667rem;
+  color: #999999;
+  text-decoration: line-through;
+}
+.categorylist .module .content::after {
+  content: "";
+  height: 0;
+  width: 33.3%;
 }
