@@ -2,13 +2,18 @@
 
 ### 介绍：这是一个基于 react 实现的商城移动端
 
+## 运行方式：
+
+- 安装包 npm install
+- 在终端运行 npm start
+
 ## 使用技术介绍：
 
-    1、axios  请求后台数据（暂时都是死数据）
-    2、fastclick 优化ios无法点击
-    3、gulp 优化css（各个浏览器兼容问题）
-    4、react-swipe  轮播图
-    5、react-dom、react-hot-loader、react-redux、react-router-dom、redux
+- fastclick 优化 ios 无法点击
+- gulp 优化 css（各个浏览器兼容问题）
+- react-swipe 轮播图
+- react-dom、react-hot-loader、react-redux、react-router-dom、redux（后续还需优化）
+- axios（暂时还未用到）
 
 ## 首页页面 效果图：
 
