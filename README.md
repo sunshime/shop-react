@@ -1,4 +1,4 @@
-# pro-react 项目
+# shop-react 项目
 
 ### 介绍：这是一个基于 react 实现的商城移动端
 
