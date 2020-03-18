@@ -379,9 +379,26 @@ body {
 .my .bodyblock .order .order-top .right {
   color: #999;
   font-size: 0.42666667rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .my .bodyblock .order .order-top .right span {
-  font-size: 0.98133333rem;
+  font-size: 0.34133333rem;
+}
+.my .bodyblock .order .order-top .right img {
+  width: 0.42666667rem;
+  margin-left: 0.42666667rem;
+}
+.my .bodyblock .order .order-top .right img {
+  height: 0.74666667rem;
+  display: block;
 }
 .my .bodyblock .order .order-bt .order-ul {
   display: -webkit-box;
@@ -479,6 +496,13 @@ body {
 }
 .my .bodyblock .about .about-li .right .rt {
   padding: 0 0.64rem;
+}
+.my .bodyblock .about .about-li .right .rt img {
+  width: 0.42666667rem;
+}
+.my .bodyblock .about .about-li .right .rt img {
+  height: 0.74666667rem;
+  display: block;
 }
 .my .bodyblock .about .about-li .noborder {
   border-bottom: 0 none;

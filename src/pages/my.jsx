@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../common/style/app.css";
 import AHeader from "../components/header";
 import Footer from "../components/footer";
-import {orderList,aboutList} from '../api/myData'
+import { orderList, aboutList } from "../api/myData";
 
 class Category extends Component {
   state = {
@@ -53,7 +53,8 @@ class Category extends Component {
             <div className="order-top">
               <div className="left">我的订单</div>
               <div className="right">
-                查看全部订单&nbsp;<span>&gt;</span>
+                <span>查看全部订单</span>
+                <img src={require("../common/images/arrow.png")} alt="" />
               </div>
             </div>
             <div className="order-bt">
@@ -91,7 +92,12 @@ class Category extends Component {
                       }
                     >
                       <span className="lt">{item.name}</span>
-                      <span className="rt">&gt;</span>
+                      <div className="rt">
+                        <img
+                          src={require("../common/images/arrow.png")}
+                          alt=""
+                        />
+                      </div>
                     </div>
                   </li>
                 );
@@ -107,7 +113,9 @@ class Category extends Component {
                 </div>
                 <div className="right noborder">
                   <span className="lt">付款资源</span>
-                  <span className="rt">&gt;</span>
+                  <div className="rt">
+                    <img src={require("../common/images/arrow.png")} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -121,7 +129,9 @@ class Category extends Component {
                 </div>
                 <div className="right noborder">
                   <span className="lt">支付渠道</span>
-                  <span className="rt">&gt;</span>
+                  <div className="rt">
+                    <img src={require("../common/images/arrow.png")} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
