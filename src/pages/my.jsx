@@ -2,45 +2,10 @@ import React, { Component } from "react";
 import "../common/style/app.css";
 import AHeader from "../components/header";
 import Footer from "../components/footer";
+import {orderList,aboutList} from '../api/myData'
 
 class Category extends Component {
   state = {
-    orderList: [
-      {
-        imgSrc: "substitutePay.jpg",
-        name: "代付款"
-      },
-      {
-        imgSrc: "collectGoods.jpg",
-        name: "待收货"
-      },
-      {
-        imgSrc: "generationEvaluation.jpg",
-        name: "待评价"
-      },
-      {
-        imgSrc: "refund.jpg",
-        name: "退款/售后"
-      }
-    ],
-    aboutList: [
-      {
-        imgSrc: "wallet.jpg",
-        name: "我的钱包"
-      },
-      {
-        imgSrc: "collection.jpg",
-        name: "我的收藏"
-      },
-      {
-        imgSrc: "recommendation.jpg",
-        name: "我的推荐"
-      },
-      {
-        imgSrc: "points.jpg",
-        name: "我的积分"
-      }
-    ],
     avator: ""
   };
 
@@ -93,7 +58,7 @@ class Category extends Component {
             </div>
             <div className="order-bt">
               <ul className="order-ul">
-                {this.state.orderList.map((item, index) => {
+                {orderList.map((item, index) => {
                   return (
                     <li key={item + index} className="order-li">
                       <img
@@ -109,7 +74,7 @@ class Category extends Component {
           </div>
           <div className="about">
             <ul className="about-ul">
-              {this.state.aboutList.map((item, index) => {
+              {aboutList.map((item, index) => {
                 return (
                   <li className="about-li" key={item + index}>
                     <div className="left">
@@ -120,7 +85,7 @@ class Category extends Component {
                     </div>
                     <div
                       className={
-                        index < this.state.aboutList.length - 1
+                        index < aboutList.length - 1
                           ? "right"
                           : "right noborder"
                       }

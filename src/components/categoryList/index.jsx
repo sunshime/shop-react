@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./index.css";
-import cateList from "../../util/data";
+import cateList from "../../api/categoryData";
 class CategoryList extends Component {
   state = {};
 
