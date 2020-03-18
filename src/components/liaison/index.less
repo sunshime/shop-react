@@ -1,0 +1,101 @@
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+@import '../../common/fonts/iconfont.css';
+
+.liaison {
+    .px2rem(20);
+    padding-top: @px2rem;
+    height: 75vh;
+    overflow: scroll;
+
+    ul li {
+        .lis-top {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .px2rem(20);
+            padding: @px2rem 0;
+
+            .icon {
+                .px2rem(120);
+                width: @px2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    .px2rem(35);
+                    width: @px2rem;
+                }
+
+                img {
+                    .px2rem(50);
+                    height: @px2rem;
+                }
+
+                .down-icon {
+                    .px2rem(50);
+                    width: @px2rem;
+                }
+
+                .down-icon {
+                    .px2rem(35);
+                    height: @px2rem;
+                }
+            }
+        }
+
+        .lis-ul {
+            .px2rem(100);
+            padding: 0 @px2rem;
+
+            .items-li {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                .px2rem(130);
+                height: @px2rem;
+
+                &:last-child {
+                    .px2rem(50);
+                    padding-bottom: @px2rem;
+                }
+
+                .lts {
+                    .px2rem(160);
+                    width: @px2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        .px2rem(100);
+                        width: @px2rem;
+                        height: @px2rem;
+                        display: block;
+                        border-radius: 50%;
+                    }
+                }
+
+                .rts {
+                    .px2rem(42);
+                    padding-left: @px2rem;
+                    font-size: @px2rem;
+                    color: #333333;
+                    display: flex;
+                    flex-direction: column;
+                    width: 98%;
+
+                    .sign {
+                        .px2rem(30);
+                        font-size: @px2rem;
+                        color: #888888;
+                        .ellipsis();
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+}

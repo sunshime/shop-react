@@ -1,0 +1,77 @@
+@import '../../common/fonts/iconfont.css';
+body {
+  background-color: #F5F7FA;
+  width: 100%;
+  height: 100%;
+  font-size: 0.29866667rem;
+}
+.liaison {
+  padding-top: 0.42666667rem;
+  height: 75vh;
+  overflow: scroll;
+}
+.liaison ul li .lis-top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.42666667rem 0;
+}
+.liaison ul li .lis-top .icon {
+  width: 2.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liaison ul li .lis-top .icon img {
+  width: 0.74666667rem;
+}
+.liaison ul li .lis-top .icon img {
+  height: 1.06666667rem;
+}
+.liaison ul li .lis-top .icon .down-icon {
+  width: 1.06666667rem;
+}
+.liaison ul li .lis-top .icon .down-icon {
+  height: 0.74666667rem;
+}
+.liaison ul li .lis-ul {
+  padding: 0 2.13333333rem;
+}
+.liaison ul li .lis-ul .items-li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 2.77333333rem;
+}
+.liaison ul li .lis-ul .items-li:last-child {
+  padding-bottom: 1.06666667rem;
+}
+.liaison ul li .lis-ul .items-li .lts {
+  width: 3.41333333rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liaison ul li .lis-ul .items-li .lts img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  display: block;
+  border-radius: 50%;
+}
+.liaison ul li .lis-ul .items-li .rts {
+  padding-left: 0.896rem;
+  font-size: 0.896rem;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+.liaison ul li .lis-ul .items-li .rts .sign {
+  font-size: 0.64rem;
+  color: #888888;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  width: 100%;
+}

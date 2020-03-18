@@ -1,0 +1,58 @@
+@import '../../common/fonts/iconfont.css';
+body {
+  background-color: #F5F7FA;
+  width: 100%;
+  height: 100%;
+  font-size: 0.29866667rem;
+}
+.chatmes ul {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 75vh;
+  overflow: scroll;
+}
+.chatmes ul li {
+  height: 3.584rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 0.2px solid #afafaf;
+}
+.chatmes ul li:last-child {
+  border: 0 none;
+}
+.chatmes ul li .lt {
+  width: 4.26666667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatmes ul li .lt img {
+  height: 2.56rem;
+  width: 2.56rem;
+  display: block;
+  border-radius: 50%;
+}
+.chatmes ul li .rt {
+  width: 79%;
+}
+.chatmes ul li .rt .tops {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.32rem;
+  color: #999;
+}
+.chatmes ul li .rt .tops .name {
+  color: #333;
+  font-weight: 500;
+  font-size: 0.85333333rem;
+}
+.chatmes ul li .rt .bot {
+  padding-top: 0.42666667rem;
+  color: #7F7F7F;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  width: 100%;
+}

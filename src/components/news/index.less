@@ -22,7 +22,7 @@
         justify-content: start;
         align-items: center;
         background: rgba(0, 0, 0, 0);
-        border-bottom: 1px solid #eeeeee;
+        border-bottom: 1px solid #e6e4e4;
 
         .icon {
             height: 100%;
@@ -49,6 +49,27 @@
             font-size: @px2rem;
             background: rgba(255, 255, 255, 0.1);
             color: #757575;
+        }
+    }
+
+    .chat{
+        .top {
+            display: flex;
+            .px2rem(98);
+            line-height: @px2rem;
+            border-bottom: 1px solid #e6e4e4;
+
+            .item{
+                width: 50%;
+                text-align: center;
+                .px2rem(40);
+                font-size: @px2rem;
+                color: #333333;
+            }
+
+            .active{
+                color: #F85959;
+            }
         }
     }
 }

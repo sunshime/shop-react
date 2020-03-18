@@ -1,0 +1,70 @@
+@import "../../common/less/px2rem.less";
+@import "../../common/style/common.less";
+@import '../../common/fonts/iconfont.css';
+
+.chatmes {
+    ul {
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 75vh;
+        overflow: scroll;
+
+        li {
+            .px2rem(168);
+            height: @px2rem;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            border-bottom: 0.2px solid #afafaf;
+
+            &:last-child {
+                border: 0 none;
+            }
+
+            .lt {
+                .px2rem(200);
+                width: @px2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    .px2rem(120);
+                    height: @px2rem;
+                    width: @px2rem;
+                    display: block;
+                    border-radius: 50%;
+                }
+            }
+
+            .rt {
+                width: 79%;
+
+                .tops {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .px2rem(15);
+                    padding-right: @px2rem;
+                    color: #999;
+
+                    .name {
+                        color: #333;
+                        .px2rem(40);
+                        font-weight: 500;
+                        font-size: @px2rem;
+                    }
+                }
+
+                .bot {
+                    .px2rem(20);
+                    padding-top: @px2rem;
+                    color: #7F7F7F;
+                    .ellipsis();
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+}
