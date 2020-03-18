@@ -11,7 +11,10 @@
 ## 首页页面 效果图：
 ![home.png](https://i.loli.net/2020/03/16/HvDFjhwqQEyPLlY.png)
 
+## 商品分类页面 效果图：
+![category.png](https://i.loli.net/2020/03/18/1jRaswEOUpHTLPY.png)
+
 ## 我的页面 效果图：
-![home.png](https://s1.ax1x.com/2020/03/17/8NZwm4.png)
+![my.png](https://i.loli.net/2020/03/18/BSlCLoKv5XJViyf.png)
 
 ## 其他页面还在开发中~
