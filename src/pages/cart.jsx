@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import "../common/style/app.css";
 import AHeader from "../components/header";
 import Footer from "../components/footer";
@@ -7,36 +7,33 @@ class Category extends Component {
   state = {
     dataList: [
       {
-        kinds: "you can",
+        kinds: "you can do it",
         list: [
           {
-            img:
-              "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=97571592,2934218527&fm=11&gp=0.jpg",
-            title: "时间看似残忍，其实不然，只是美与真之间，总是留下真而已。",
-            price: 12,
+            img: "https://gw.alicdn.com/bao/uploaded/i4/671012022/O1CN01BdAQo11Qo7PhoGgk2_!!671012022.jpg_180x180xz.jpg_.webp",
+            title: "MIUCO喇叭袖波点网纱衬衫+钉珠V领收腰背心裙连衣裙女2020春新款k",
+            price: 278.2,
             num: 1,
             checked: false
           },
           {
-            img:
-              "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1545504521,501407176&fm=11&gp=0.jpg",
-            title: "时间会见证和成全一切成长和改变。",
-            price: 122,
+            img: "https://gw.alicdn.com/bao/uploaded/i3/1122110005/O1CN018uhXao1BuKZMO0C7O_!!1122110005.jpg_180x180xz.jpg_.webp",
+            title: "新款裙子女2019时尚流行针织连衣裙秋冬智熏法式V领修身桔梗裙ins",
+            price: 99,
             num: 1,
             checked: false
           },
           {
-            img:
-              "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3394426466,628987709&fm=26&gp=0.jpg",
-            title: "这一切还需要文字记录，让人心感受，所以文字乃我所喜爱之二。",
-            price: 299,
+            img: "https://gw.alicdn.com/bao/uploaded/i1/55391412/O1CN01Obt2Sa1MIjp3dcZor_!!0-item_pic.jpg_180x180xz.jpg_.webp",
+            title: "雅宿 韩版秋冬加绒加厚格子衬衫女复古港风2019秋冬新款上衣pl51",
+            price: 79,
+            num: 1,
             checked: false
           },
           {
-            img:
-              "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1092627708,517203178&fm=11&gp=0.jpg",
-            title: "少年听雨歌楼上，壮年听雨客舟中，暮年听雨僧庐下。",
-            price: 112,
+            img: "https://gw.alicdn.com/bao/uploaded/i1/63290421/O1CN01lpkTW01EyrK14efYi_!!0-item_pic.jpg_180x180xz.jpg_.webp",
+            title: "【多件多折】唐狮2019秋新款休闲裤  女休闲裤休闲时尚长裤学生",
+            price: 149,
             num: 1,
             checked: false
           }
@@ -46,28 +43,22 @@ class Category extends Component {
         kinds: "时光逆流店",
         list: [
           {
-            img:
-              "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3829540518,272129763&fm=11&gp=0.jpg",
-            title:
-              "公道世间唯白发，贵人头上不曾饶。少年易老学难成，一寸光阴不可轻。",
-            price: 312,
+            img: "https://gw.alicdn.com/bao/uploaded/i3/67305615/O1CN01TiTJX01rLiTq6OdGF_!!0-item_pic.jpg_180x180xz.jpg_.webp",
+            title: "西林家19冬新款法式气质大蜜豆同款遮肉显瘦系带高腰阔腿牛仔裤女",
+            price: 139.99,
             num: 1,
             checked: false
           },
           {
-            img:
-              "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=186331454,2043130141&fm=26&gp=0.jpg",
-            title:
-              "愿每个人都能发现最美的文字表达最真实的自己，不负韶华，留下最美时光。最美的时光沉淀出最美的文字，在最美的文字中追忆最美的时光。",
-            price: 102,
+            img: "https://gw.alicdn.com/bao/uploaded/i1/1607659423/O1CN01g2taRO2JTmhMLOnRM_!!1607659423.jpg_180x180xz.jpg_.webp",
+            title: "冬慵懒宽松趣味笑脸刺绣加绒加厚卫衣运动休闲连帽外套学生绒衫女",
+            price: 95,
             num: 1,
             checked: false
           },
           {
-            img:
-              "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=183246121,2109342373&fm=26&gp=0.jpg",
-            title:
-              "时间和文字在一个个老庭院里厮磨，这是文化存在的极温暖方式。千般荒凉，以此为梦；万里蹀躞，以此为归。",
+            img: "https://gw.alicdn.com/bao/uploaded/i4/70870644/O1CN01RjNmiM1GczdYmKORy_!!70870644.jpg_180x180xz.jpg_.webp",
+            title: "【年末清仓 直降40元】假两件套头卫衣女秋冬宽松羊羔毛绒外套",
             price: 100,
             num: 1,
             checked: false
@@ -76,7 +67,8 @@ class Category extends Component {
       }
     ],
     isChecked: false, // 是否全选
-    checkList: [] // 选中的项
+    checkList: [], // 选中的项
+    buyPrice: 0 // 结算总价
   };
 
   // 单选
@@ -142,10 +134,23 @@ class Category extends Component {
         }
       });
     });
+    console.log("checkList===>选中的项", checkList);
+    let buyPrice = 0;
+    if (checkList.length > 0) {
+      checkList.forEach(item => {
+        buyPrice = buyPrice + item.price * item.num;
+        this.setState({
+          buyPrice: buyPrice
+        });
+      });
+    }
+    console.log("buyPrice==>", buyPrice);
+
     this.setState({
+      buyPrice: buyPrice,
       checkList: [...checkList]
     });
-    console.log("checkList===>选中的项", checkList);
+    console.log("this.state.buyPrice==>", this.state.buyPrice);
   }
 
   // 删除某一项
@@ -163,86 +168,162 @@ class Category extends Component {
       });
     });
 
-    console.log("===>", list);
+    let checkList = [...this.state.checkList];
+    if (checkList.length > 0) {
+      checkList.forEach((item2, index2) => {
+        if (item2 === item) {
+          checkList.splice(index2, 1);
+        }
+      });
+    }
+
+    let buyPrice = 0;
+    if (checkList.length > 0) {
+      checkList.forEach(item3 => {
+        buyPrice = buyPrice + item3.price * item3.num;
+        this.setState({
+          buyPrice: buyPrice
+        });
+      });
+    }
+    console.log("buyPrice===>11", buyPrice);
 
     this.setState({
-      dataList: [...list]
+      dataList: [...list],
+      checkList: [...checkList],
+      buyPrice: buyPrice
     });
+    console.log("===>", list);
+    console.log("checkList===>", this.state.checkList);
   }
 
   // 减数量
-  reduce() {}
+  reduce(item) {
+    console.log("item====>", item);
+    let list = [...this.state.dataList];
+    list.forEach((item1, index1) => {
+      item1.list.forEach((item2, index2) => {
+        if (item2 === item) {
+          console.log(item2);
+          if (item2.num > 0) {
+            item2.num--;
+            this.setState({
+              dataList: [...list]
+            });
+            this.getAllPrice();
+          }
+        }
+      });
+    });
+  }
 
   // 加数量
-  increase() {}
+  increase(item) {
+    console.log("item====>", item);
+    let list = [...this.state.dataList];
+    list.forEach((item1, index1) => {
+      item1.list.forEach((item2, index2) => {
+        if (item2 === item) {
+          console.log(item2);
+          item2.num++;
+          this.setState({
+            dataList: [...list]
+          });
+          this.getAllPrice();
+        }
+      });
+    });
+  }
+
+  // 计算价格
+  getAllPrice() {
+    let list = [...this.state.checkList];
+    let buyPrice = 0;
+    if (list.length > 0) {
+      list.forEach(item => {
+        buyPrice = buyPrice + item.price * item.num;
+      });
+    }
+
+    this.setState({
+      buyPrice: buyPrice
+    });
+  }
 
   render() {
     return (
       <div className="cart">
         <AHeader title="购物车" />
         <div className="content">
-          {this.state.dataList.map((item, index) => {
-            return (
-              <div key={item + index}>
-                <div className="categorys">{item.kinds}</div>
-                {item.list.map((item1, index1) => {
-                  return (
-                    <div key={item1 + index1} className="item">
-                      <div
-                        className="select_wrap"
-                        onClick={this.selectItem.bind(this, item1)}
-                      >
-                        {item1.checked && (
-                          <img
-                            className="select"
-                            src="https://i.loli.net/2020/03/05/2ODunK73vlaHhIw.png"
-                            alt=""
-                          />
-                        )}
-                        {!item1.checked && (
-                          <img
-                            className="select"
-                            src="https://i.loli.net/2020/03/05/zaBLDGlk2dCUwZQ.png"
-                            alt=""
-                          />
-                        )}
-                      </div>
-                      <img className="btimg" src={item1.img} alt="" />
-                      <div className="item_wrap">
-                        <div className="title">{item1.title}</div>
-                        <div className="bottoms">
-                          <span className="left">￥{item1.price}</span>
-                          <div className="operate">
-                            <span
-                              className="operate-click"
-                              onClick={this.reduce.bind(this, item1)}
-                            >
-                              -
-                            </span>
-                            <span className="operate-click operate-num">
-                              {item1.num}
-                            </span>
-                            <span
-                              className="operate-click"
-                              onClick={this.increase.bind(this, item1)}
-                            >
-                              +
-                            </span>
+          {this.state.dataList.length > 0 && (
+            <div>
+              {this.state.dataList.map((item, index) => {
+                return (
+                  <div key={item + index}>
+                    <div className="categorys">{item.kinds}</div>
+                    {item.list.map((item1, index1) => {
+                      return (
+                        <div key={item1 + index1} className="item">
+                          <div
+                            className="select_wrap"
+                            onClick={this.selectItem.bind(this, item1)}
+                          >
+                            {item1.checked && (
+                              <img
+                                className="select"
+                                src="https://i.loli.net/2020/03/05/2ODunK73vlaHhIw.png"
+                                alt=""
+                              />
+                            )}
+                            {!item1.checked && (
+                              <img
+                                className="select"
+                                src="https://i.loli.net/2020/03/05/zaBLDGlk2dCUwZQ.png"
+                                alt=""
+                              />
+                            )}
+                          </div>
+                          <img className="btimg" src={item1.img} alt="" />
+                          <div className="item_wrap">
+                            <div className="title">{item1.title}</div>
+                            <div className="bottoms">
+                              <span className="left">￥{item1.price}</span>
+                              <div className="operate">
+                                <span
+                                  className="operate-click"
+                                  onClick={this.reduce.bind(this, item1)}
+                                >
+                                  -
+                                </span>
+                                <span className="operate-click operate-num">
+                                  {item1.num}
+                                </span>
+                                <span
+                                  className="operate-click"
+                                  onClick={this.increase.bind(this, item1)}
+                                >
+                                  +
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="delete-item"
+                            onClick={this.deleteItem.bind(this, item1, index1)}
+                          >
+                            删除
                           </div>
                         </div>
-                      </div>
-                      <div
-                        className="delete-item"
-                        onClick={this.deleteItem.bind(this, item1, index1)}
-                      >
-                        删除
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          })}
+                      );
+                    })}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+          {this.state.dataList.length === 0 && (
+            <div className="no-data">没有加入购物车的数据咯~</div>
+          )}
         </div>
         <div className="footer_wrap">
           <div className="wrap-lt">
@@ -264,7 +345,7 @@ class Category extends Component {
               <div className="allselect">全选</div>
             </div>
             <div className="rts">
-              总计：<span>￥256</span>
+              总计：<span>￥{this.state.buyPrice}</span>
             </div>
           </div>
           <div className="wrap-rt">去结算({this.state.checkList.length})</div>

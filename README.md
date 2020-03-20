@@ -32,4 +32,10 @@
 
 ![my.png](https://i.loli.net/2020/03/18/f5mTuPoBKytMcdE.png)
 
-### 其他页面还在开发中~
+## 购物车页面 效果图：
+![cart.png](https://i.loli.net/2020/03/20/VuoCWHrRZjLX9I3.png)
+
+## 关于我们 效果图：
+![about.png](https://i.loli.net/2020/03/20/EiLnG8mpc2aoIeB.png)
+
+### 后续会进行优化~

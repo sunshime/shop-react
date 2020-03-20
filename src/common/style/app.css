@@ -484,6 +484,8 @@ body {
 .cart .content .categorys {
   height: 2.56rem;
   line-height: 2.56rem;
+  border-bottom: 1px solid #eee;
+  background-color: #ffffff;
 }
 .cart .content .categorys {
   padding-left: 0.64rem;
@@ -569,6 +571,13 @@ body {
 .cart .content .item .item_wrap .bottoms .operate .operate-num {
   margin: 0 0.21333333rem;
   font-size: 0.21333333rem;
+}
+.cart .content .no-data {
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.98133333rem;
 }
 .cart .select_wrap {
   margin-right: 0.64rem;
