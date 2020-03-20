@@ -15,27 +15,14 @@
 - react-dom、react-hot-loader、react-redux、react-router-dom、redux（后续还需优化）
 - axios（暂时还未用到）
 
-## 首页页面 效果图：
-
+## 效果图：
 ![home.png](https://i.loli.net/2020/03/18/Ou24fzqgwIkoi9S.png)
-
-## 商品分类页面 效果图：
-
 ![category.png](https://i.loli.net/2020/03/18/JfiSDhPTobyxIdB.png)
-
-## 消息页面 效果图：
-
 ![chat1.png](https://i.loli.net/2020/03/18/Idg4NVJRUxi1zyG.png)
 ![chat2.png](https://i.loli.net/2020/03/18/xBpo2Nq7hdmcn6S.png)
-
-## 我的页面 效果图：
-
 ![my.png](https://i.loli.net/2020/03/18/f5mTuPoBKytMcdE.png)
-
-## 购物车页面 效果图：
 ![cart.png](https://i.loli.net/2020/03/20/VuoCWHrRZjLX9I3.png)
-
-## 关于我们 效果图：
 ![about.png](https://i.loli.net/2020/03/20/EiLnG8mpc2aoIeB.png)
 
-### 后续会进行优化~
+
+#### 后续会进行优化~
