@@ -17,7 +17,7 @@
 
 ## 效果图：
 ![home.png](https://i.loli.net/2020/03/18/Ou24fzqgwIkoi9S.png)
-![category.png](https://i.loli.net/2020/03/18/JfiSDhPTobyxIdB.png)
+![category.png](https://i.loli.net/2020/03/20/gu3TKFJqQRDHAE1.png)
 ![chat1.png](https://i.loli.net/2020/03/18/Idg4NVJRUxi1zyG.png)
 ![chat2.png](https://i.loli.net/2020/03/18/xBpo2Nq7hdmcn6S.png)
 ![my.png](https://i.loli.net/2020/03/18/f5mTuPoBKytMcdE.png)
