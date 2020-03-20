@@ -5,12 +5,13 @@ class CategoryList extends Component {
   state = {};
 
   render() {
+    const {id} = this.props;
     return (
       <div className="categorylist">
         {cateList.map((item, index) => {
           return (
             <Fragment key={item.id}>
-              {this.props.id === item.id && (
+              {id === item.id && (
                 <Fragment>
                   {item.list.map((item1, index1) => {
                     return (

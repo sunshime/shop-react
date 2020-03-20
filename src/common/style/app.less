@@ -1,6 +1,7 @@
 @import "../less/px2rem.less";
 @import "./common.less";
 
+// 首页
 .home {
     .swipers {
         .px2rem(98);
@@ -305,6 +306,7 @@
 
 }
 
+// 我的页面
 .my {
     background-color: #EBEFF8;
 
@@ -564,12 +566,14 @@
     }
 }
 
+// 消息页面
 .info {
     background: url('../../common/images/chat.jpg') 100% 100%;
     width: 100%;
     height: 100vh;
 }
 
+// 商品分类页面
 .category {
     .px2rem(98);
     padding-top: @px2rem;
@@ -633,5 +637,39 @@
             overflow: -moz-scrollbars-none;
         }
 
+    }
+}
+
+// 关于我们 页面
+.about {
+    .px2rem(30);
+    padding: @px2rem;
+    background-color: #fff;
+    .title {
+        .px2rem(46);
+        font-size: @px2rem;
+        font-weight: 700;
+        text-align: center;
+        color: #333;
+    }
+
+    ul {
+        .px2rem(40);
+        padding-top: @px2rem;
+        li {
+            .px2rem(80);
+            line-height: @px2rem;
+            color: #333;
+
+            .bigTitle{
+                .px2rem(40);
+                font-size: @px2rem;
+            }
+
+            .subTitle{
+                .px2rem(30);
+                padding-left: @px2rem;
+            }
+        }
     }
 }
